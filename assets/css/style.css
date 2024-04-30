@@ -144,7 +144,8 @@ a:hover {
 
 /*--/ Title s /--*/
 .title-s {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
@@ -181,6 +182,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  font-weight: 800;
 }
 
 .title-left:before {
@@ -248,8 +250,32 @@ a:hover {
 .list-ico,
 .socials ul {
   list-style: none;
-  padding-left: 0;
+  /* margin-top: 30px ; */
+  /* padding-left: 0;
   margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600; */
+}
+
+
+.info {
+  margin-top: 80px;
+  padding-left: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+
+.info h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.info p {
+  /* text-transform: lowercase; */
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .list-ico {
@@ -760,24 +786,33 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  font-weight: 800;
+  font-size: 39px;
+  text-transform: uppercase;
 }
+
+.lead {
+  font-size: 16.5px;
+  font-weight: 650;
+  text-align: justify;
+}
+
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
   }
 }
 
 .hero .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 30px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
   .hero .hero-subtitle {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
   }
 }
 
@@ -846,6 +881,8 @@ a:hover {
 
 .skill-mf span {
   color: #4e4e4e;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .skill-mf .progress {
@@ -853,6 +890,7 @@ a:hover {
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
+
 }
 
 .skill-mf .progress .progress-bar {
@@ -896,14 +934,20 @@ a:hover {
 }
 
 .service-box .s-title {
-  font-size: 1.4rem;
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
 }
 
 .service-box .s-description {
+  padding: 10px;
   color: #4e4e4e;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+
 }
 
 /*--------------------------------------------------------------
@@ -987,7 +1031,9 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
